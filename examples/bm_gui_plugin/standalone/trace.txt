@@ -1,0 +1,40 @@
+[    5428.574387] Bias Ok
+[    5428.579635] Bus Locked
+[    5428.579852] Discovery START, RESPCYCS: 0x7D
+[    5428.582501] SRF ERROR: missed 1, hdcnt 1, crc 1, icrc 0
+[    5428.582501] SRF ERROR: missed 2, hdcnt 1, crc 2, icrc 2
+[    5428.586954] Discovery STOP
+[    5428.586954] Node: 0, type: READ, reg: VENDOR (0x02), data: 0xAD
+[    5428.586996] Node: 0, type: READ, reg: PRODUCT (0x03), data: 0x33
+[    5428.587038] Node: 0, type: READ, reg: VERSION (0x04), data: 0x12
+[    5428.587079] Node: 0, type: READ, reg: CAPABILITY (0x05), data: 0x03
+[    5428.587204] Node: 0, type: WRITE, reg: LDNSLOTS (0x0B), data: 0x80
+[    5428.587309] Node: 0, type: WRITE, reg: LUPSLOTS (0x0C), data: 0x10
+[    5428.587413] Node: 0, type: WRITE, reg: I2SGCFG (0x41), data: 0x02
+[    5428.587517] Node: 0, type: WRITE, reg: I2SCFG (0x42), data: 0x77
+[    5428.587622] Node: 0, type: WRITE, reg: DNMASK0 (0x65), data: 0xFF
+[    5428.587726] Node: 0, type: WRITE, reg: DNMASK1 (0x66), data: 0xFF
+[    5428.587881] Node: 0, type: WRITE, reg: SPICLKDIV (0xB2), data: 0x03
+[    5428.587985] Node: 0, type: WRITE, reg: INTMSK0 (0x1B), data: 0x00
+[    5428.588027] Node: 0, type: WRITE, reg: INTMSK1 (0x1C), data: 0x00
+[    5428.589028] Node: BROADCAST, type: WRITE, reg: PLLCTL (0x40), data: 0x00
+[    5428.589028] Slave SRF: nodeAddr: 0, BROADCAST_ACK 
+[    5428.589299] Node: BROADCAST, type: WRITE, reg: SLOTFMT (0x10), data: 0x44
+[    5428.589299] Slave SRF: nodeAddr: 0, BROADCAST_ACK 
+[    5428.589403] Node: BROADCAST, type: WRITE, reg: DATCTL (0x11), data: 0x23
+[    5428.589403] Slave SRF: nodeAddr: 0, BROADCAST_ACK 
+[    5428.589507] Node: BROADCAST, type: WRITE, reg: CONTROL (0x12), data: 0x03
+[    5428.589507] Slave SRF: nodeAddr: 0, BROADCAST_ACK 
+[    5428.589528] Node: BROADCAST, type: WRITE, reg: CONTROL (0x12), data: 0x02
+[    5428.589528] Slave SRF: nodeAddr: 0, BROADCAST_ACK 
+[    5428.589549] Node: BROADCAST, type: WRITE, reg: CONTROL (0x12), data: 0x01
+[    5428.589549] Slave SRF: nodeAddr: 0, BROADCAST_ACK 
+[    5428.589570] Node: BROADCAST, type: WRITE, reg: CONTROL (0x12), data: 0x00
+[    5428.589570] Slave SRF: nodeAddr: 0, BROADCAST_ACK 
+[    5428.589591] Node: BROADCAST, type: WRITE, reg: CONTROL (0x12), data: 0x00
+[    5428.589591] Slave SRF: nodeAddr: 0, BROADCAST_ACK 
+[    5428.590747] Node: 0, type: WRITE, reg: SWCTL (0x09), data: 0x00
+[    5536.882298] SRF ERROR: missed 48, hdcnt 0, crc 48, icrc 0
+[    5536.884978] SRF ERROR: missed 128, hdcnt 0, crc 128, icrc 0
+[    5536.885771] No Bias
+[    5536.885954] Bus Unlocked
