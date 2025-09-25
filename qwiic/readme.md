@@ -16,3 +16,10 @@ All QWIIC components from Sparkfun can be found here:
 | Type | Desciption | Sparkfun Prod.No. | 
 | --- | --- | --- | 
 | Display | 1.3inch, 128x64 Qwiic OLED | [LCD-23453](https://www.sparkfun.com/sparkfun-qwiic-oled-1-3in-128x64.html) |
+| Buttons | Qwiic Joystick | [COM-15168](https://www.sparkfun.com/sparkfun-qwiic-joystick.html) |
+| Audio | WM8960 Audio Codec (discontinued) | [BOB-21250](https://www.sparkfun.com/sparkfun-audio-codec-breakout-wm8960.html) |
+| Button | Qwiic Button with green LED | [BOB-16842](https://www.sparkfun.com/sparkfun-qwiic-button-green-led.html)|
+| Button | Qwiic Button with red LED | [BOB-15932](https://www.sparkfun.com/sparkfun-qwiic-button-red-led.html))|
+| Button | Qwiic Button Breakout | [BOB-15931](https://www.sparkfun.com/sparkfun-qwiic-button-breakout.html)|
+| RTC | RTC Module RV-8803 | [BOB-16281](https://www.sparkfun.com/sparkfun-real-time-clock-module-rv-8803-qwiic.html)|
+
