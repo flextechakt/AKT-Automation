@@ -98,7 +98,7 @@ repeat
         end
     end
     ok, _IRQ = irq.next()
-    if ok then
+    if ok and _IRQ.active then
         print(pretty.write(_IRQ, ''))
         if _IRQ.type == 4 then
             read_BECNT()
