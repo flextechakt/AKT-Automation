@@ -67,7 +67,7 @@ ok, VPV = api.execute('master.i2cWriteRead',
 )
 if not ok:
     print('master.i2cWriteRead() error')
-    print(resp)
+    print(VPV)
     exit()
 print_vpv('Local', VPV)
 
@@ -92,7 +92,7 @@ ok, VPV = api.execute('master.i2cWriteRead',
 )
 if not ok:
     print('master.i2cWriteRead() error')
-    print(resp)
+    print(VPV)
     exit()
 print_vpv('Remote', VPV)
 
