@@ -154,14 +154,10 @@ From here till the end, all code blocks are part of
 the official program.
 
 --]]
-
     --local curses = require 'curses'
     --local posix  = require 'posix'
-
 --[[
-
-AKT Automation substitutes for the curses and pozix libraries
-
+AKT Automation substitutes for the curses and posix libraries
 --]]
 
     local rtos = require('freertos')
