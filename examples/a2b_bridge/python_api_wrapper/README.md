@@ -1,6 +1,6 @@
 # Intro
 
-This component manages the JSON-RPC RESTful API details for the A2B Bridge AKT Automation interface over Ethernet or USB.  It ensures thread-safe access to API functions across multiple devices, A2B ports, and APIs (Lua, RESTful Ethernet/USB, and the command-line).
+This component manages the JSON-RPC RESTful API interface to the A2B Bridge over Ethernet or USB.  It ensures thread-safe access to API functions across multiple devices, A2B ports, and APIs (Lua, RESTful Ethernet/USB, and the command-line).
 
 # Setup
 
