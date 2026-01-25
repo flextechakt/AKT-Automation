@@ -19,13 +19,13 @@ Wire the A2B "A" and "B" sides into the A2B network
 
 1. Create a `shell.cmd` on internal `sf:` filesystem to start the automation
    script.
-   
+
    ```
    # edit sf:shell.cmd
    ```
 
 2. Insert the the following content into the file
-   
+
    ```
    lua event_logger.lua
    ```
@@ -88,20 +88,23 @@ LED control API
 
 # Misc topics
 
-1. Press 'q' to quit the script and return to the command line
+1. The script only logs discovery events from "Bias OK" until an A2B NEWSTRCT
+   is detected.
 
-2. The script can be re-launched with `lua event_logger.lua`
+2. Press 'q' to quit the script and return to the command line
 
-3. Refer to the Pocket A2B Bus Monitor User Guide for general command line
+3. The script can be re-launched with `lua event_logger.lua`
+
+4. Refer to the Pocket A2B Bus Monitor User Guide for general command line
    usage.
 
-4. The Lua [Penlight](https://github.com/lunarmodules/Penlight) collection
+5. The Lua [Penlight](https://github.com/lunarmodules/Penlight) collection
    is recommended during script development.  The `pretty` module, in
    particular, is very useful for dumping tables and module information.
    For example, the following will dump all methods and enumerations in
    the `bm` module.  To use, simply copy the penlight distribution into
    a `pl` folder on the SD card.
-   
+
    ```
    bm = require('bm')
    pretty = require('pl.pretty')
