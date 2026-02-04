@@ -9,6 +9,9 @@ from jsonrpcclient import request, parse, Ok, Error, parse_json
 
 BRIDGE_COM_PORT = 'COM39'
 
+if len(sys.argv) > 1:
+    BRIDGE_COM_PORT = sys.argv[1]
+
 QUIT= False
 
 def sig_int(sig, frame):
