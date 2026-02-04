@@ -67,10 +67,10 @@ ok, resp = api.execute('setup.setRoute',
 # Route USB and A2B0 to the VU meters
 print('VU Routes...')
 ok, resp = api.execute('setup.setRoute',
-    { 'id':0, 'src':'usb', 'srcId':0, 'srcOffset':0,
+    { 'id':2, 'src':'usb', 'srcId':0, 'srcOffset':0,
               'dst':'vu', 'dstId':0, 'dstOffset':0, 'channels':2})
 ok, resp = api.execute('setup.setRoute',
-    { 'id':1, 'src':'a2b', 'srcId':0, 'srcOffset':0,
+    { 'id':3, 'src':'a2b', 'srcId':0, 'srcOffset':0,
               'dst':'vu', 'dstId':0, 'dstOffset':2, 'channels':2})
 
 # Discover on A2B0
